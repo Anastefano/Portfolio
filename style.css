@@ -103,7 +103,7 @@ section .title::after{
 }
 .navbar .logo a span{
     color: #D299C2;
-    color: ;
+
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -122,8 +122,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: #D299C2;
-    color: ;
+    color:red;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -140,7 +139,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    color: #D299C2;
+    color: red;
     background: ;
     right: 30px;
     bottom: 10px;
@@ -197,7 +196,7 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: #D299C2;
+    color: crimson;
     font-weight: 500;
 }
 .home .home-content a{
@@ -239,21 +238,21 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: #D299C2;
+    color: crimson;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #D299C2;
+    background: crimson;
     color: #fff;  
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #D299C2;
+    border: 2px solid crimson;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
@@ -264,7 +263,9 @@ section .title::after{
 /* services section styling */
 .services, .teams{
     color:#fff;
-    background: #111;
+    background-image: url(/img/pozadina\ flip.png);
+/* background: transparent; */
+    /* background-image: url(img/pozadina\ 2.png); */
 }
 .services .title::before,
 .teams .title::before{
@@ -272,8 +273,8 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #111;
-    content: "what i provide";
+    /* background: transparent
+    content: "what i provide"; */
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -384,7 +385,8 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    /* content: "what Iworked on "; */
+   
 }
 .teams .carousel .card{
     background-image: url(/img/Group\ 355.png);
